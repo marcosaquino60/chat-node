@@ -1,3 +1,30 @@
-div {
-    background-color: #f00;
+.body {
+    margin: 0;
 }
+
+.page {
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#loginPage {
+    display: flex;
+    background-color: #fff;
+}
+
+#loginNameInput {
+    width: 100%;
+    max-width: 400px;
+    border: 2px solid #000;
+    background-color: #ccc;
+    font-size: 18px;
+    padding: 10px;
+    outline: 0;
+}
+
+#chatPage {
+    display: none;
+}
+
